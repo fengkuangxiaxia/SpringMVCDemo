@@ -16,6 +16,7 @@ import java.util.List;
  * Created by dzkan on 2015/10/3.
  */
 @Controller
+@RequestMapping(value = "/user")
 public class UserController {
     // 自动装配
     @Autowired
@@ -51,7 +52,7 @@ public class UserController {
         userRepository.saveAndFlush(userEntity);
 
         // 返回重定向 到 /users 请求
-        return "redirect:/users";
+        return "redirect:/user/users";
     }
 
     // 查看用户详情
@@ -87,7 +88,7 @@ public class UserController {
         // 更新用户信息
         userRepository.updateUser(userEntity.getFirstname(), userEntity.getLastname(),
                 userEntity.getPassword(), userEntity.getId());
-        return "redirect:/users";
+        return "redirect:/user/users";
     }
 
     // 删除用户
@@ -98,6 +99,6 @@ public class UserController {
         userRepository.delete(userId);
         // 立即刷新
         userRepository.flush();
-        return "redirect:/users";
+        return "redirect:/user/users";
     }
 }

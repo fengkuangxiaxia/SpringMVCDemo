@@ -31,13 +31,13 @@
     <h1>SpringMVC 博客系统-用户管理</h1>
     <hr/>
 
-    <h3>所有用户 <a href="/addUser" type="button" class="btn btn-default btn-sm">添加</a></h3>
+    <h3>所有用户 <a href="/user/addUser" type="button" class="btn btn-default btn-sm">添加</a></h3>
 
     <!-- 如果用户列表为空 -->
     <c:if test="${empty userList}">
         <p class="bg-warning">
             <br/>
-            User表为空，请<a href="/addUser" type="button" class="btn btn-default btn-sm">添加</a>
+            User表为空，请<a href="/user/addUser" type="button" class="btn btn-default btn-sm">添加</a>
             <br/>
             <br/>
         </p>
@@ -59,9 +59,9 @@
                     <td>${user.firstname} ${user.lastname}</td>
                     <td>${user.password}</td>
                     <td>
-                        <a href="/showUser/${user.id}" type="button" class="btn btn-sm btn-success">详情</a>
-                        <a href="/updateUser/${user.id}" type="button" class="btn btn-sm btn-warning">修改</a>
-                        <a href="/deleteUser/${user.id}" type="button" class="btn btn-sm btn-danger">删除</a>
+                        <a href="/user/showUser/${user.id}" type="button" class="btn btn-sm btn-success">详情</a>
+                        <a href="/user/updateUser/${user.id}" type="button" class="btn btn-sm btn-warning">修改</a>
+                        <a href="/user/deleteUser/${user.id}" type="button" class="btn btn-sm btn-danger">删除</a>
                     </td>
                 </tr>
             </c:forEach>

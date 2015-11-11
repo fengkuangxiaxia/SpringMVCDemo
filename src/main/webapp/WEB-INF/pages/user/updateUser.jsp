@@ -31,7 +31,7 @@
     <h1>SpringMVC 更新用户信息</h1>
     <hr/>
 
-    <form:form action="/updateUserPost" method="post" commandName="userP" role="form">
+    <form:form action="/user/updateUserPost" method="post" commandName="userP" role="form">
         <div class="form-group">
             <label for="firstName">First Name:</label>
             <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter FirstName:"
