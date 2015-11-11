@@ -27,8 +27,10 @@
         <servlet-api.version>3.1.0</servlet-api.version>
         <jsp-api.version>2.2</jsp-api.version>
         <jstl.version>1.2</jstl.version>
-        <hibernate-jpa-2.0-api.version>1.0.1.Final</hibernate-jpa-2.0-api.version>
-        <hibernate-entitymanager.version>5.0.3.Final</hibernate-entitymanager.version>
+        <!--hibernate-jpa-2.0-api.version>1.0.1.Final</hibernate-jpa-2.0-api.-->
+        <hibernate-jpa-2.0-api.version>1.0.0.Final</hibernate-jpa-2.0-api.version>
+        <!--hibernate-entitymanager.version>5.0.3.Final</hibernate-entitymanager.version.-->
+        <hibernate-entitymanager.version>3.6.10.Final</hibernate-entitymanager.version>
         <mysql-connector-java.version>5.1.37</mysql-connector-java.version>
         <json.version>20150729</json.version>
         <slf4j-simple.version>1.7.12</slf4j-simple.version>
