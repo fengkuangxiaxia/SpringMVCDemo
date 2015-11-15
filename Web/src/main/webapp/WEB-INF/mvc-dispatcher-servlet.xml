@@ -26,4 +26,13 @@
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+
+    <!--bean name="addFunctionAction"
+          class="com.gaussic.HelloWorldBean"
+          scope="prototype">
+        <property name="HelloWorldBean" ref="HelloWorldBean"></property>
+    </bean>
+    <bean id="HelloWorldBean" class="org.springframework.jndi.JndiObjectFactoryBean">
+        <property name="jndiName" value="HelloWorld/local"></property>
+    </bean-->
 </beans>
