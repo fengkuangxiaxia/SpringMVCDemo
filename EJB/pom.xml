@@ -10,6 +10,7 @@
 
     <artifactId>EJB</artifactId>
     <packaging>ejb</packaging>
+    <version>1.0-SNAPSHOT</version>
 
     <name>EJB</name>
 

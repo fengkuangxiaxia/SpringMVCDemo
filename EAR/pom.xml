@@ -10,6 +10,7 @@
 
     <artifactId>EAR</artifactId>
     <packaging>ear</packaging>
+    <version>1.0-SNAPSHOT</version>
 
     <name>EAR</name>
 
