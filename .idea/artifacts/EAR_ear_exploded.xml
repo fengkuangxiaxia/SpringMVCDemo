@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="EAR:ear exploded">
+    <output-path>$PROJECT_DIR$/EAR/target/EAR-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="EAR/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/EAR/target/EAR-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/EAR/src/main/application" />
+      <element id="archive" name="EJB-1.0-SNAPSHOT.jar">
+        <element id="artifact" artifact-name="EJB:ejb exploded" />
+      </element>
+      <element id="archive" name="Web-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="Web:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.2.RELEASE" />
+        <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.2.RELEASE" />
+        <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+        <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.2.RELEASE" />
+        <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.2.RELEASE" />
+        <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+        <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.2.RELEASE" />
+      </element>
+    </root>
+  </artifact>
+</component>
