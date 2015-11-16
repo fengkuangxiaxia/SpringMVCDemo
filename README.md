@@ -1,6 +1,6 @@
 # SpringMVCDemo-EAR分支
 ##开发环境
-JAVA：[1.7.0_79](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
+JAVA：[1.7.0_79](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)(JBoss7.1.1仅支持1.7及以下的版本)
 
 MAVEN：[3.3.3](http://maven.apache.org/download.cgi)
 
