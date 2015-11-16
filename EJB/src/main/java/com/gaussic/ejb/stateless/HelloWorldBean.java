@@ -1,8 +1,7 @@
-package com.gaussic;
+package com.gaussic.ejb.stateless;
 
 import javax.ejb.Local;
 import javax.ejb.LocalBean;
-import javax.ejb.Remote;
 import javax.ejb.Stateless;
 
 /**

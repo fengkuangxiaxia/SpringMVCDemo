@@ -1,9 +1,7 @@
-package com.gaussic.ejb;
+package com.gaussic.ejb.stateless;
 
-import com.gaussic.HelloWorld;
+import com.gaussic.ejb.entiry.User;
 
-import javax.ejb.Local;
-import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

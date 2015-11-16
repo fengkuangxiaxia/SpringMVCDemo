@@ -1,4 +1,6 @@
-package com.gaussic.ejb;
+package com.gaussic.ejb.stateless;
+
+import com.gaussic.ejb.entiry.User;
 
 import javax.ejb.Remote;
 

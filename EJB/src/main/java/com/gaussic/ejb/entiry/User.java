@@ -1,4 +1,4 @@
-package com.gaussic.ejb;
+package com.gaussic.ejb.entiry;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -14,6 +14,7 @@ public class User implements Serializable{
     private String C_PASSWORD;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "C_ID", nullable = false)
     public int getId() {
         return C_ID;
